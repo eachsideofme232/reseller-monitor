@@ -1,0 +1,20 @@
+{
+  "requests": {
+    "error": "429 Client Error: Too Many Requests for url: https://smartstore.naver.com/kdh_co/products/11101650658?NaPm=ct%3Dmdsi8jhk%7Cci%3D62288ff1aae6d402ca876dbe78939e883f48854e%7Ctr%3Dslbrc%7Csn%3D7292104%7Chk%3D1ae77dab64886fc4f7b8256fa82d68c9667e3080&nl-au=d848e7c6ce584fb193f91d72410f62ea&nl-query=%EC%98%A4%EB%94%A7%EC%84%B8%EC%9D%B4+%EB%B8%94%EB%9E%99+2%EC%A2%85"
+  },
+  "playwright": {
+    "title": "[에러] 에러페이지 - 시스템오류",
+    "price_info": [],
+    "product_names": [
+      "현재 서비스 접속이 불가합니다."
+    ],
+    "content_length": 22220,
+    "url": "https://smartstore.naver.com/kdh_co/products/11101650658?NaPm=ct%3Dmdsi8jhk%7Cci%3D62288ff1aae6d402ca876dbe78939e883f48854e%7Ctr%3Dslbrc%7Csn%3D7292104%7Chk%3D1ae77dab64886fc4f7b8256fa82d68c9667e3080&nl-au=d848e7c6ce584fb193f91d72410f62ea&nl-query=%EC%98%A4%EB%94%A7%EC%84%B8%EC%9D%B4+%EB%B8%94%EB%9E%99+2%EC%A2%85",
+    "screenshot": "naver_smartstore_screenshot.png"
+  },
+  "playwright_visible": {
+    "title": "[에러] 에러페이지 - 시스템오류",
+    "url": "https://smartstore.naver.com/kdh_co/products/11101650658?NaPm=ct%3Dmdsi8jhk%7Cci%3D62288ff1aae6d402ca876dbe78939e883f48854e%7Ctr%3Dslbrc%7Csn%3D7292104%7Chk%3D1ae77dab64886fc4f7b8256fa82d68c9667e3080&nl-au=d848e7c6ce584fb193f91d72410f62ea&nl-query=%EC%98%A4%EB%94%A7%EC%84%B8%EC%9D%B4+%EB%B8%94%EB%9E%99+2%EC%A2%85",
+    "screenshot": "naver_smartstore_visible.png"
+  }
+}

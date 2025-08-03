@@ -1,0 +1,37 @@
+{
+  "platform_name": "gmarket",
+  "base_url": "https://www.gmarket.co.kr",
+  "selectors": {
+    "title": [
+      ".itemtit",
+      ".product_title",
+      "h1.title"
+    ],
+    "price": [
+      ".price_real",
+      ".sale_price",
+      ".price"
+    ],
+    "original_price": [
+      ".price_original",
+      ".list_price",
+      ".before_price"
+    ],
+    "discount_rate": [
+      ".discount_rate",
+      ".sale_rate",
+      ".discount"
+    ],
+    "stock": [
+      ".stock_info",
+      ".inventory",
+      ".quantity"
+    ]
+  },
+  "wait_selectors": [
+    ".price_real",
+    ".itemtit"
+  ],
+  "timeout": 10000,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+} 

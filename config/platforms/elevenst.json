@@ -1,0 +1,48 @@
+{
+  "platform_name": "11st",
+  "base_url": "https://www.11st.co.kr",
+  "selectors": {
+    "title": [
+      "h1.title",
+      ".product_title",
+      "[data-testid='product-title']"
+    ],
+    "price": [
+      "#finalDscPrcArea .price strong .value",
+      "#finalDscPrcArea .price strong",
+      ".price_block #finalDscPrcArea .price strong .value",
+      ".price_block #finalDscPrcArea .price strong"
+    ],
+    "original_price": [
+      ".price_regular del",
+      ".price_regular",
+      ".price_block .price_regular del",
+      "del"
+    ],
+    "discount_rate": [
+      "#finalDscPrcArea .rate .value",
+      ".price_block .rate .value",
+      "#maxDiscountResult .rate .value",
+      ".rate .value"
+    ],
+    "max_discount_price": [
+      "#maxDiscountResult .price strong .value",
+      "#maxDiscountResult .price strong"
+    ],
+    "max_discount_rate": [
+      "#maxDiscountResult .rate .value"
+    ],
+    "stock": [
+      ".stock_info",
+      ".inventory",
+      "[data-testid='stock']"
+    ]
+  },
+  "wait_selectors": [
+    ".price_block",
+    "#finalDscPrcArea",
+    "h1.title"
+  ],
+  "timeout": 10000,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+} 

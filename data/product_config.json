@@ -1,0 +1,23 @@
+{
+  "target_products": [
+    {
+      "name": "오딧세이 블랙 2종",
+      "keyword": "오딧세이 블랙 2종",
+      "original_price": 79800,
+      "description": "오딧세이 블랙 2종 세트"
+    },
+    {
+      "name": "오딧세이 로맨틱 2종",
+      "keyword": "오딧세이 로맨틱 2종",
+      "original_price": 59800,
+      "description": "오딧세이 로맨틱 2종 세트"
+    }
+  ],
+  "monitoring_settings": {
+    "max_results_per_product": 100,
+    "update_interval_minutes": 30,
+    "exclude_keywords": ["중고", "사용감", "리퍼", "2종 여행용 키트", "여행용 키트", "여행용 2키트", "더블구성", "더블 구성", "x2세트", "듀오"],
+    "min_price_threshold": 10000,
+    "max_price_threshold": 400000
+  }
+} 

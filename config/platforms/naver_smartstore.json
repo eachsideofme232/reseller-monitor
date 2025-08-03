@@ -1,0 +1,70 @@
+{
+  "platform_name": "naver_smartstore",
+  "base_url": "https://smartstore.naver.com",
+  "selectors": {
+    "title": [
+      ".product_title",
+      ".productName",
+      "h1.title",
+      "[data-testid='product-title']",
+      ".prd_title",
+      ".product_title_area h1"
+    ],
+    "price": [
+      ".price",
+      ".product_price",
+      ".sale_price",
+      "[data-testid='price']",
+      ".price_area .price",
+      "#finalDscPrcArea .price strong .value",
+      ".price_area .sale_price",
+      ".price_area .final_price"
+    ],
+    "original_price": [
+      ".original_price",
+      ".list_price",
+      ".before_price",
+      ".price_area .original_price",
+      ".price_area .list_price",
+      ".price_area .before_price",
+      ".price_area .strike_price",
+      ".price_area .original_price_area .price"
+    ],
+    "discount_rate": [
+      ".discount_rate",
+      ".sale_rate",
+      ".price_area .discount_rate",
+      "[data-testid='discount-rate']",
+      ".price_area .sale_rate",
+      ".price_area .discount_rate_area .rate",
+      ".price_area .sale_rate_area .rate"
+    ],
+    "max_discount_price": [
+      ".max_discount_price",
+      ".price_area .max_discount_price",
+      ".price_area .final_discount_price",
+      "#finalDscPrcArea .price strong .value"
+    ],
+    "max_discount_rate": [
+      ".max_discount_rate",
+      ".price_area .max_discount_rate",
+      ".price_area .final_discount_rate"
+    ],
+    "stock": [
+      ".stock_info",
+      ".inventory",
+      "[data-testid='stock']",
+      ".stock_area",
+      ".inventory_info"
+    ]
+  },
+  "wait_selectors": [
+    ".price",
+    ".product_title",
+    ".price_area",
+    "#finalDscPrcArea",
+    ".price_area .price"
+  ],
+  "timeout": 15000,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+} 
