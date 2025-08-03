@@ -141,4 +141,10 @@ Thumbs.db
 # Playwright
 test-results/
 playwright-report/
-playwright/.cache/ 
+playwright/.cache/
+
+# Project specific
+results/
+output/
+test_results.json
+*.png 
